@@ -1,0 +1,46 @@
+html {
+	--primary-color: #4278ae;
+	--secondary-color: #a5bce2;
+	--terciary-color: #211f2c;
+}
+main {
+	margin: 1rem 0;
+}
+
+.marketing {
+	padding-top: 1rem;
+	background-color: var(--primary-color) !important;
+	border-bottom: 1px solid var(--terciary-color);
+}
+
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.nav-link {
+	white-space: nowrap;
+}
+
+@media (min-width: 764px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+body {
+	color: var(--terciary-color) !important;
+}
+
+.bg-dark {
+	background-color: var(--primary-color) !important;
+}
+
+.carousel-img {
+	max-width: 100%;
+	height: 100%;
+}

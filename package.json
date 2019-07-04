@@ -1,0 +1,33 @@
+{
+	"name": "seastorm",
+	"version": "1.0.0",
+	"description": "SeaStorm's official website",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MerceneX/SeaStorm-Official.git"
+	},
+	"keywords": [
+		"SeaStorm",
+		"website",
+		"company",
+		"sailing",
+		"sailing",
+		"school"
+	],
+	"author": "MerceneX",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MerceneX/SeaStorm-Official/issues"
+	},
+	"homepage": "https://github.com/MerceneX/SeaStorm-Official#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^3.1.0",
+		"handlebars": "^4.1.2",
+		"serve-favicon": "^2.5.0"
+	}
+}
