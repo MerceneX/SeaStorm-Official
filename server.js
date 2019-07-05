@@ -5,8 +5,11 @@ const express = require("express"),
 	hbs = require("express-handlebars"),
 	favicon = require("serve-favicon");
 
-app.use("/style", express.static(__dirname + "/Views/res/styles"));
-app.use("/img", express.static(__dirname + "/Views/res/img"));
+app.use(
+	"/style",
+	express.static(path.resolve(__dirname, "Views", "res", "styles"))
+);
+app.use("/img", express.static(path.resolve(__dirname, "Views", "res", "img")));
 app.set("view engine", "hbs");
 app.engine(
 	"hbs",
