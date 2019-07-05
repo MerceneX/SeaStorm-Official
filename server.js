@@ -7,6 +7,7 @@ const express = require("express"),
 
 app.use("/style", express.static(__dirname + "/Views/res/styles"));
 app.use("/img", express.static(__dirname + "/Views/res/img"));
+app.set("views", __dirname);
 app.set("view engine", "hbs");
 app.engine(
 	"hbs",
