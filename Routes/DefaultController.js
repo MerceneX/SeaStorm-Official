@@ -12,7 +12,7 @@ router.get("/About", (req, res) => {
 	const data = {
 		About: setupDataObject(req.data.About, req.originalUrl, "About")
 	};
-	res.render("About", data.About);
+	res.render("about", data.About);
 });
 function setupDataObject(data, url, active) {
 	data.current = url.substring(4);
