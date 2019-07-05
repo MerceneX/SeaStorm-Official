@@ -24,7 +24,7 @@ app.param("locale", (req, res, next) => {
 	next();
 });
 app.get("*", (req, res) => {
-	res.redirect("/en");
+	res.redirect("/sl");
 });
 
 const port = process.env.PORT || 5000;

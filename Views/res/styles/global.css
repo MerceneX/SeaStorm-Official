@@ -1,16 +1,21 @@
 html {
-	--primary-color: #4278ae;
-	--secondary-color: #a5bce2;
+	--primary-color: #c7f7ff;
+	--secondary-color: #000066;
 	--terciary-color: #211f2c;
 }
 main {
 	margin: 1rem 0;
 }
 
+h1,
+h2 {
+	margin: 1rem 0;
+	color: var(--secondary-color);
+}
+
 .marketing {
 	padding-top: 1rem;
 	background-color: var(--primary-color) !important;
-	border-bottom: 1px solid var(--terciary-color);
 }
 
 .bd-placeholder-img {
@@ -26,10 +31,27 @@ main {
 	white-space: nowrap;
 }
 
+.active > .nav-link {
+	white-space: nowrap;
+	color: var(--primary-color) !important;
+}
+
+a.navbar-brand {
+	color: var(--primary-color) !important;
+}
+
 @media (min-width: 764px) {
 	.bd-placeholder-img-lg {
 		font-size: 3.5rem;
 	}
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: rgba(255, 255, 255, 0.95);
 }
 
 body {
@@ -37,7 +59,7 @@ body {
 }
 
 .bg-dark {
-	background-color: var(--primary-color) !important;
+	background-color: var(--secondary-color) !important;
 }
 
 .carousel-img {

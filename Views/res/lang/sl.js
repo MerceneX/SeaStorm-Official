@@ -5,7 +5,7 @@ const navigation = {
 	tbuild: { name: "Teambuilding", link: "/sl" },
 	slit: { name: "Literatura", link: "/sl" },
 	about: { name: "O Nas", link: "/sl/about" },
-	language: { name: "Jezik" }
+	language: { name: "Language" }
 };
 
 module.exports = {
