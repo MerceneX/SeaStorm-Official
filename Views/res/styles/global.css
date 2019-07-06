@@ -1,7 +1,9 @@
 html {
-	--primary-color: #c7f7ff;
-	--secondary-color: #000066;
-	--terciary-color: #211f2c;
+	--primary-color: 199, 257, 255;
+	--secondary-color: 0, 0, 102;
+	--terciary-color: 33, 31, 44;
+	--textPri-color: 49, 48, 48;
+	--textSec-color: 228, 251, 255;
 }
 main {
 	margin: 1rem 0;
@@ -10,7 +12,7 @@ main {
 h1,
 h2 {
 	margin: 1rem 0;
-	color: var(--secondary-color);
+	color: rgb(var(--secondary-color));
 }
 
 body {
@@ -28,7 +30,7 @@ body {
 
 .marketing {
 	padding-top: 1rem;
-	background-color: var(--primary-color) !important;
+	background-color: rgb(var(--primary-color)) !important;
 }
 
 .bd-placeholder-img {
@@ -46,11 +48,11 @@ body {
 
 .active > .nav-link {
 	white-space: nowrap;
-	color: var(--primary-color) !important;
+	color: rgb(var(--primary-color)) !important;
 }
 
 a.navbar-brand {
-	color: var(--primary-color) !important;
+	color: rgb(var(--primary-color)) !important;
 }
 
 @media (min-width: 764px) {
@@ -67,19 +69,18 @@ a.navbar-brand {
 	color: rgba(255, 255, 255, 0.95);
 }
 
+.navbar-nav {
+	margin-bottom: 0.3rem;
+}
+
 body {
-	color: var(--terciary-color) !important;
+	color: rgb(var(--terciary-color)) !important;
 }
 
 .bg-dark {
-	background-color: var(--secondary-color) !important;
-}
-
-.carousel-img {
-	max-width: 100%;
-	height: 100%;
+	background-color: rgb(var(--secondary-color)) !important;
 }
 
 footer {
-	color: var(--secondary-color);
+	color: rgb(var(--secondary-color));
 }
