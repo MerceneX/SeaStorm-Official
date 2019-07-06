@@ -26,8 +26,8 @@
 	"homepage": "https://github.com/MerceneX/SeaStorm-Official#readme",
 	"dependencies": {
 		"express": "^4.17.1",
+		"express-favicon": "^2.0.1",
 		"express-handlebars": "^3.1.0",
-		"handlebars": "^4.1.2",
-		"serve-favicon": "^2.5.0"
+		"handlebars": "^4.1.2"
 	}
 }

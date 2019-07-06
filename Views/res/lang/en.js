@@ -13,7 +13,11 @@ module.exports = {
 		layout: "main",
 		title: "Home",
 		css: "/style/homepage.css",
-		navigation
+		navigation,
+		heading1: "Experience with us",
+		expo1: "Saling School",
+		expo2: "Sailing Trips",
+		expo3: "Teambuilding"
 	},
 	About: {
 		layout: "main",
