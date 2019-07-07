@@ -4,21 +4,20 @@ const navigation = {
 		name: "Šola Jadranja",
 		link: "/sl",
 		dropdown: [
-			{ name: "Začetni Tečaj", link: "#" },
-			{ name: "Nadaljevalni Tečaj", link: "#" },
-			{ name: "Individualni Tečaj", link: "#" },
-			{ name: "Postani Voditelj Čolna", link: "#" }
+			{ name: "Začetni Tečaj", link: "/sl" },
+			{ name: "Nadaljevalni Tečaj", link: "/sl" },
+			{ name: "Individualni Tečaj", link: "/sl" }
 		]
 	},
 	strips: {
 		name: "Jadralski Izleti",
 		link: "/sl",
 		dropdown: [
-			{ name: "4-urni Izlet", link: "#" },
-			{ name: "1-dnevni Izlet", link: "#" },
-			{ name: "2-dnevni Izlet", link: "#" },
-			{ name: "3-dnevni Izlet", link: "#" },
-			{ name: "Tedenski Izlet", link: "#" }
+			{ name: "4-urni Izlet", link: "/sl" },
+			{ name: "1-dnevni Izlet", link: "/sl" },
+			{ name: "2-dnevni Izlet", link: "/sl" },
+			{ name: "3-dnevni Izlet", link: "/sl" },
+			{ name: "Tedenski Izlet", link: "/sl" }
 		]
 	},
 	tbuild: { name: "Teambuilding", link: "/sl" },
@@ -26,9 +25,9 @@ const navigation = {
 		name: "Literatura",
 		link: "/sl",
 		dropdown: [
-			{ name: "Navigacija", link: "#" },
-			{ name: "Manevriranje", link: "#" },
-			{ name: "Vzdrževanje", link: "#" }
+			{ name: "Navigacija", link: "/sl" },
+			{ name: "Manevriranje", link: "/sl" },
+			{ name: "Vzdrževanje", link: "/sl" }
 		]
 	},
 	about: { name: "O Nas", link: "/sl/about" },

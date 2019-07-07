@@ -4,21 +4,20 @@ const navigation = {
 		name: "Sailing School",
 		link: "/en",
 		dropdown: [
-			{ name: "Beginner Course", link: "#" },
-			{ name: "Intermediate Course", link: "#" },
-			{ name: "Individual Course", link: "#" },
-			{ name: "Boat Leader Course", link: "#" }
+			{ name: "Beginner Course", link: "/en" },
+			{ name: "Intermediate Course", link: "/en" },
+			{ name: "Individual Course", link: "/en" }
 		]
 	},
 	strips: {
 		name: "Sailing Trips",
 		link: "/en",
 		dropdown: [
-			{ name: "4h Trip", link: "#" },
-			{ name: "1 Day Trip", link: "#" },
-			{ name: "2 Day Trip", link: "#" },
-			{ name: "3 Day Trip", link: "#" },
-			{ name: "Weekly Trip", link: "#" }
+			{ name: "4h Trip", link: "/en" },
+			{ name: "1 Day Trip", link: "/en" },
+			{ name: "2 Day Trip", link: "/en" },
+			{ name: "3 Day Trip", link: "/en" },
+			{ name: "Weekly Trip", link: "/en" }
 		]
 	},
 	tbuild: { name: "Team Building", link: "/en" },
@@ -26,9 +25,9 @@ const navigation = {
 		name: "Literature",
 		link: "/en",
 		dropdown: [
-			{ name: "Navigation", link: "#" },
-			{ name: "Manouvering", link: "#" },
-			{ name: "Maintenance", link: "#" }
+			{ name: "Navigation", link: "/en" },
+			{ name: "Manouvering", link: "/en" },
+			{ name: "Maintenance", link: "/en" }
 		]
 	},
 	about: { name: "About", link: "/en/about" },
