@@ -37,10 +37,9 @@
                             {{navigation.sschool.name}}
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            {{#each navigation.sschool.dropdown}}
+                            <a class="dropdown-item" href="{{this.link}}">{{this.name}}</a>
+                            {{/each}}
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -49,23 +48,15 @@
                             {{navigation.strips.name}}
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            {{#each navigation.strips.dropdown}}
+                            <a class="dropdown-item" href="{{this.link}}">{{this.name}}</a>
+                            {{/each}}
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{navigation.tbuild.link}}" id="navbarDropdown"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{navigation.tbuild.link}}">
                             {{navigation.tbuild.name}}
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="{{navigation.slit.link}}" id="navbarDropdown"
@@ -73,10 +64,9 @@
                             {{navigation.slit.name}}
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#"></a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            {{#each navigation.slit.dropdown}}
+                            <a class="dropdown-item" href="{{this.link}}">{{this.name}}</a>
+                            {{/each}}
                         </div>
                     </li>
                     <li class="nav-item {{#if active.About}}active{{/if}}">
