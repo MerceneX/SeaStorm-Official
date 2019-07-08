@@ -48,19 +48,19 @@ module.exports = {
 		expo1: {
 			title: "Šola Jadranja",
 			text:
-				"Ponujam izobraževanja v več različnih okusih za bolj, manj in neizkušene. Pripravil sem začetni, nadaljevalni in individualni tečaj za vse ljubitelje športa. Za vse ki želite narediti korak dalje, pa nudim tečaj za voditelja čolna.",
+				"Ponujamo izobraževanja v več različnih okusih za bolj, manj in neizkušene. Pripravili smo vam začetni, nadaljevalni in individualni tečaj za vse ljubitelje športa.",
 			more: global.more1
 		},
 		expo2: {
 			title: "Jadralski Izleti",
 			text:
-				"Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+				"Doživetje jadranja je nekaj prav posebnega, kratko ali dolgotrajno tvorni nepozabne spomine. Zato ponujamo časovno prilagodljive izlete, katerih se boste spominjali še dolgo in veseli o nijh pripovedovali prijateljem.",
 			more: global.more1
 		},
 		expo3: {
 			title: "Teambuilding",
 			text:
-				"Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+				"Na odprtem morju, ko valovi zatresejo tla pod nogamo izvemo iz kakšnega testa smo v resnici! Je vaša ekipa pripravljena stopiti skupaj in zapluti res enotno? Pridite na teambulding in izvedeli boste.",
 			more: global.more1
 		}
 	},
