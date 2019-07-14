@@ -48,19 +48,19 @@ module.exports = {
 		expo1: {
 			title: "Saling School",
 			text:
-				"Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+				"We offer a wide variety of courses for the more, less and inexperienced. We've prepared a beginner intermediate and individual course for all lovers of the sport who would like to have a go at it themselves.",
 			more: global.more1
 		},
 		expo2: {
 			title: "Sailing Trips",
 			text:
-				"Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+				"The experince of sailing is something special wheter it is a short or a long trip, the memories last. This is why we offer trips in all shapes and sizes, so you can choose an unforgetable experience to tell all your friends about it.",
 			more: global.more1
 		},
 		expo3: {
 			title: "Teambuilding",
 			text:
-				"Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+				"On the open sea, where waves shake the deck we find out what we're made of! Is your team ready to stand as one when it's time to sail? Schedule a teambuilding sailing trip and we'll find out.",
 			more: global.more1
 		}
 	},
