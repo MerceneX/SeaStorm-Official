@@ -3,8 +3,10 @@ const express = require("express"),
 	path = require("path"),
 	routes = require("./Routes/DefaultController"),
 	hbs = require("express-handlebars"),
-	favicon = require("express-favicon");
+	favicon = require("express-favicon"),
+	secure = require("express-force-https");
 
+app.use(secure);
 app.use("/style", express.static(__dirname + "/Views/res/styles"));
 app.use("/img", express.static(__dirname + "/Views/res/img"));
 app.set("views", __dirname + "/Views");
