@@ -21,10 +21,16 @@ app.engine(
 		partialsDir: __dirname + "/Views/partials/"
 	})
 );
+const supportedLocales = ["sl"];
+
 app.use(favicon(__dirname + "/Views/res/img/favicon.gif"));
 app.use("/:locale", routes);
 app.param("locale", (req, res, next) => {
-	req.data = require(`./Views/res/lang/${req.params.locale}.js`);
+	if (supportedLocales.includes(req.params.locale)) {
+		req.data = require(`./Views/res/lang/${req.params.locale}.js`);
+	} else {
+		res.redirect("/sl");
+	}
 	next();
 });
 app.get("*", (req, res) => {
