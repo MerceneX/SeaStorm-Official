@@ -1,1 +1,35 @@
-"Hi"
+<link rel="stylesheet" type="text/css" href={{css}}>
+<h1 class="display-3 text-center">
+    {{title}}
+</h1>
+<div class="container ">
+    <div class="row">
+        <div class="col-lg-8 col-md-12">
+            <p class="lead">{{{content}}}</p>
+            <hr>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <img src="/img/about/About1.gif" alt="">
+        </div>
+        <div class="contact-info col-lg-6 col-md-6 col-sm-12">
+
+            <h4>{{contactInfo.title}}</h4>
+            <dl class="row">
+                <dt class="col-md-4 col-lg-5">{{contactInfo.name.description}}:</dt>
+                <dd class="col-md-8 col-lg-7">{{contactInfo.name.value}}</dd>
+                <dt class="col-md-4 col-lg-5">{{contactInfo.address.description}}:</dt>
+                <dd class="col-md-8 col-lg-7">{{contactInfo.address.value}}</dd>
+                <dt class="col-md-4 col-lg-5">{{contactInfo.phone.description}}:</dt>
+                <dd class="col-md-8 col-lg-7">{{contactInfo.phone.value}}</dd>
+                <dt class="col-md-4 col-lg-5">{{contactInfo.email.description}}:</dt>
+                <dd class="col-md-8 col-lg-7">{{contactInfo.email.value}}</dd>
+                <dt class="col-md-4 col-lg-5">{{contactInfo.website.description}}:</dt>
+                <dd class="col-md-8 col-lg-7">
+                    <a href="https://www.seastorm-sailing.com">{{contactInfo.website.value}}</a></dd>
+            </dl>
+
+
+        </div>
+    </div>
+
+</div>
