@@ -71,11 +71,14 @@ module.exports = {
 		title: "O Nas",
 		css: "/style/about.css",
 		content:
-			"<p class='lead'>Sem Jure Srše, velik navdušenec nad morjem in jadranjem. Z lepotami in nevarnostmi morja sem se srečeval že od mladih nog. " +
+			"<p class='lead'>" +
+			"Sem Jure Srše, velik navdušenec nad morjem in jadranjem. Z lepotami in nevarnostmi morja sem se srečeval že od mladih nog. " +
 			"Sprva sem pridobil znanje plovbe z motornim čolnom. Po končani srednji šoli je sledila logična odločitev za vpis na Fakulteto za pomorstvo in promet smer Navtika. " +
 			"V času študija sem imel možnost učenja jadranja na šolski regatni jadrnici Solaria, s katero smo se udeležili tudi regat po Sloveniji.</p>" +
-			"<p class='lead'>Po diplomiranju sem se vpisal na podiplomski študij smer Pomorski sistemi, kjer sem še poglobil svoje znanje o pomorstvu.</p>" +
-			"<p class='lead'> Leto dni sem nabiral izkušnje iz pomorstva na tovorni ladji oceanske plovbe kot častnik v pripravništvu. Pridobil sem številna znanja iz mornarskih veščin, " +
+			"<p class='lead text-muted'>" +
+			"Po diplomiranju sem se vpisal na podiplomski študij smer Pomorski sistemi, kjer sem še poglobil svoje znanje o pomorstvu.</p>" +
+			"<p class='lead'>" +
+			"Leto dni sem nabiral izkušnje iz pomorstva na tovorni ladji oceanske plovbe kot častnik v pripravništvu. Pridobil sem številna znanja iz mornarskih veščin, " +
 			"komunikacijskih, navigacijskih naprav, terestrične in astronomske navigacije, delo v kolektivu. Po končanem pripravništvu sem naredil izpit za Častnika krovne straže. " +
 			"Nekaj časa sem se aktivno udeleževal regat na slovenski in hrvaški obali. Nato se mi je ponudila priložnost zaposlitve kot Častniku krovne straže na motorni jahti Esmeralda; " +
 			"kjer sem prav tako delal eno leto. Med samim delom na jahti se mi je ponudila priložnost zaposlitve na Fakulteti za pomorstvo in promet. " +
