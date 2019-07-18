@@ -83,7 +83,7 @@ module.exports = {
 				"Leto dni sem nabiral izkušnje iz pomorstva na tovorni ladji oceanske plovbe kot častnik v pripravništvu. Pridobil sem številna znanja iz mornarskih veščin, " +
 				"komunikacijskih, navigacijskih naprav, terestrične in astronomske navigacije, delo v kolektivu. Po končanem pripravništvu sem naredil izpit za Častnika krovne straže. " +
 				"Nekaj časa sem se aktivno udeleževal regat na slovenski in hrvaški obali. Nato se mi je ponudila priložnost zaposlitve kot Častniku krovne straže na motorni jahti Esmeralda; " +
-				"kjer sem prav tako delal eno leto. Med samim delom na jahti se mi je ponudila priložnost zaposlitve na Fakulteti za pomorstvo in promet. " +
+				"kjer sem prav tako delal eno leto. Med samim delom na jahti sem dobil priložnost zaposlitve na Fakulteti za pomorstvo in promet. " +
 				"Priložnost sem izkoristil in postal asistent na področju pomorstva, kjer sem še danes."
 		},
 		contactInfo: {
@@ -129,7 +129,7 @@ module.exports = {
 				shortDescription: {
 					desc: "Opis",
 					value:
-						"Spoznavanje jadranja na 10-meterski jadrnici. Čas izvajanja je dva dni."
+						"Začetni jadralni tečaj traja 2 dni in se izvaja na 10 -metrski šolski jadrnici z izhodiščem na slovenski obali. Namenjen je tistim, ki se prvič srečujejo z jadranjem."
 				},
 				boat: {
 					desc: "Plovilo",
@@ -156,7 +156,7 @@ module.exports = {
 				shortDescription: {
 					desc: "Opis",
 					value:
-						"Tečaj jadranja na 10-meterski jadrnici za že izkušene. Čas izvajanja je dva dni."
+						"Nadaljevalni tečaj jadranja je primeren za kandidate, kižeimajo predznanje iz jadranja ali začetni tečaj jadranja. Tečaj je namenjen tistim, ki si želijo samostojnega in varnega jadranja v vseh vremenskih pogojih. Tečaj se izvaja na 10 –metrski jadrnici ELAN 333. "
 				},
 				boat: {
 					desc: "Plovilo",
@@ -183,7 +183,7 @@ module.exports = {
 				shortDescription: {
 					desc: "Opis",
 					value:
-						"Učenje jadranja na 10-meterski jadrnici, krojeno po vaših željah in sposobnostih."
+						"Ponujamo vam možnost individualnega tečaja jadranja tudi na vašem lastnem plovilu, oziroma po vaših željah. Pripravimo vas tudi na samostojno upravljanje z jadrnico brez pomoči posadke."
 				},
 				boat: {
 					desc: "Plovilo",
