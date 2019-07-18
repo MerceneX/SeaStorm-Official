@@ -9,7 +9,7 @@ const express = require("express"),
 router.use("/School", school);
 router.use("/Trips", trips);
 router.use("/Teambuilding", teambuilding);
-router.use("/Literature", literature);
+//router.use("/Literature", literature);
 
 router.get("/", (req, res) => {
 	const data = {

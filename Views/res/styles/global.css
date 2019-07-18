@@ -9,6 +9,12 @@ main {
 	margin: 1rem 0;
 }
 
+a:active,
+a:link,
+a:visited {
+	color: rgb(var(--primary-color));
+}
+
 h1,
 h2 {
 	margin: 1rem 0;
@@ -19,9 +25,11 @@ body {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 	color: rgb(var(--textPri-color)) !important;
+	background-color: rgb(var(--textSec-color));
 }
 
 .display-3 {
+	padding-top: 1rem;
 	font-family: "Kaushan Script", cursive;
 }
 
@@ -90,4 +98,13 @@ h4,
 h4 {
 	font-size: 2rem;
 	margin-left: 0.7rem;
+}
+
+.card {
+	margin-top: 1rem;
+}
+@media (min-width: 992px) {
+	dl > dt {
+		text-align: right;
+	}
 }

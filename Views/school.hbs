@@ -1,1 +1,55 @@
-<h1>Courses</h1>
+<link rel="stylesheet" type="text/css" href={{css}}>
+<h1 class="display-3 text-center">
+    {{title}}
+</h1>
+<hr>
+<img src="/img/trips/trips1.gif" alt="Going on a trip" class="img-fluid">
+<div class="container ">
+    <div class="row">
+        <div class="col-sm-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{beginnerCourse.title}}</h5>
+                    <hr>
+                    <dl class="row">
+                        <dt class="col-md-12 col-lg-4">{{beginnerCourse.info.schedule.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{beginnerCourse.info.schedule.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{beginnerCourse.info.shortDescription.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{beginnerCourse.info.shortDescription.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{beginnerCourse.info.location.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{beginnerCourse.info.location.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{beginnerCourse.info.boat.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{beginnerCourse.info.boat.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{beginnerCourse.info.price.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{beginnerCourse.info.price.value}} </dd>
+                    </dl>
+                    <!--a href="#" class="btn btn-primary">More About</a-->
+                    {{#if beginnerCourse.info.extra}}<p class="card-text"><small
+                            class="text-muted">{{{beginnerCourse.info.extra}}}</small></p>{{/if}}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{intermediateCourse.title}}</h5>
+                    <hr>
+                    <dl class="row">
+                        <dt class="col-md-12 col-lg-4">{{intermediateCourse.info.schedule.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{intermediateCourse.info.schedule.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{intermediateCourse.info.shortDescription.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{intermediateCourse.info.shortDescription.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{intermediateCourse.info.location.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{intermediateCourse.info.location.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{intermediateCourse.info.boat.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{intermediateCourse.info.boat.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{intermediateCourse.info.price.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{intermediateCourse.info.price.value}} </dd>
+                    </dl>
+                    <!--a href="#" class="btn btn-primary">More About</a-->
+                    {{#if intermediateCourse.info.extra}}<p class="card-text"><small
+                            class="text-muted">{{{intermediateCourse.info.extra}}}</small></p>{{/if}}
+                </div>
+            </div>
+        </div>
+    </div>

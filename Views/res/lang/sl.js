@@ -37,7 +37,9 @@ const navigation = {
 const meta = {};
 
 const global = {
-	more1: "Več..."
+	more1: "Več...",
+	moreInformation1:
+		"Za več informacij nas <a href='/sl/About'>kontaktirajte</a>"
 };
 
 module.exports = {
@@ -112,14 +114,91 @@ module.exports = {
 	School: {
 		layout: "main",
 		title: "Šola Jadranja",
+		css: "/style/school.css",
+		beginnerCourse: {
+			title: "Začetni Tečaj",
+			info: {
+				schedule: {
+					desc: "Termin",
+					value: "Predvidoma ob sobotah in nedeljah"
+				},
+				location: {
+					desc: "Lokacija Tečaja",
+					value: "Slovensko morje z izhodiščem Izola"
+				},
+				shortDescription: {
+					desc: "Opis",
+					value:
+						"Osnovno spoznavanje jadranja nad 10-meterski jadrnici. Tečaj traja dva dni."
+				},
+				boat: {
+					desc: "Plovilo",
+					value: "Elan 333"
+				},
+				price: {
+					desc: "Cena",
+					value: "210€ na osebo"
+				},
+				extra: global.moreInformation1
+			}
+		},
+		intermediateCourse: {
+			title: "Nadaljevalni Tečaj",
+			info: {
+				schedule: {
+					desc: "Termin",
+					value: "Predvidoma ob sobotah in nedeljah"
+				},
+				location: {
+					desc: "Lokacija Tečaja",
+					value: "Slovensko morje z izhodiščem Izola"
+				},
+				shortDescription: {
+					desc: "Opis",
+					value:
+						"Podrobnejše spoznavanje jadranja nad 10-meterski jadrnici. Tečaj traja dva dni."
+				},
+				boat: {
+					desc: "Plovilo",
+					value: "Elan 333"
+				},
+				price: {
+					desc: "Cena",
+					value: "210€ na osebo"
+				},
+				extra: global.moreInformation1
+			}
+		},
 		navigation
 	},
 	Trips: {
 		layout: "main",
 		title: "Jadralski Izleti",
 		css: "/style/trips.css",
+		fourHTrip: {
+			title: "4-Urni Izlet",
+			info: {
+				schedule: { desc: "Termin", value: "Med tednom po dogovoru" },
+				location: {
+					desc: "Kraj Najema",
+					value: "Slovensko morje z izhodiščem Izola"
+				},
+				boat: {
+					desc: "Plovilo",
+					value: "Elan 333"
+				},
+				price: {
+					desc: "Cena",
+					value: "170€"
+				},
+				skiper: {
+					value: "Skiper vključen"
+				},
+				extra: global.moreInformation1
+			}
+		},
 		dailyTrip: {
-			title: "Enodnevni Izlet",
+			title: "1-Dnevni Izlet",
 			info: {
 				schedule: { desc: "Termin", value: "Sobota oz. nedelja 9.00-18.00" },
 				location: {
@@ -136,11 +215,12 @@ module.exports = {
 				},
 				skiper: {
 					value: "Skiper vključen"
-				}
+				},
+				extra: global.moreInformation1
 			}
 		},
 		twoDayTrip: {
-			title: "Dvodnevni Izlet",
+			title: "2-Dnevni Izlet",
 			info: {
 				schedule: { desc: "Termin", value: "Od sobote 9.00 do nedelje 18.00" },
 				location: {
@@ -157,11 +237,12 @@ module.exports = {
 				},
 				skiper: {
 					value: "Skiper vključen"
-				}
+				},
+				extra: global.moreInformation1
 			}
 		},
 		threeDayTrip: {
-			title: "Trodnevni Izlet",
+			title: "3-Dnevni Izlet",
 			info: {
 				schedule: { desc: "Termin", value: "Od petka 9.00 do nedelje 18.00" },
 				location: {
@@ -178,7 +259,8 @@ module.exports = {
 				},
 				skiper: {
 					value: "Skiper vključen"
-				}
+				},
+				extra: global.moreInformation1
 			}
 		},
 		weeklyTrip: {
@@ -199,7 +281,8 @@ module.exports = {
 				},
 				skiper: {
 					value: "Skiper vključen"
-				}
+				},
+				extra: global.moreInformation1
 			}
 		},
 		navigation
@@ -207,6 +290,15 @@ module.exports = {
 	Teambuilding: {
 		layout: "main",
 		title: "Teambuilding",
+		content: {
+			p1:
+				"Teambuildingbo potekal na 10-metrski jadrnici, ki sprejme do 8 ljudi vključno s skiperjem. V primeru večjega števila udeležencev, se lahko organizira dodatna jadrnica.",
+			p2:
+				"Organiziramo teambuilding na jadrnici za vaš delovni kolektiv. Poskrbimo, da se boste s sodelavci skozi proces jadranja in nepozabnega doživetja še bolj povezali in delovali kotskupina, kise zaveda pomembnosti vsakega člana za doseganje ciljev na delovnem mestu.",
+			p3:
+				"Zberemo se ob 09.00 v mairni Izola. Med samim jadranjem bo tudi čas za malico, počitek inkopanje. Vrnitev v matično marino je predvidena ob 17.00.",
+			price: "Cena teambuildinga znaša 350€ na skupino."
+		},
 		navigation
 	},
 	Literature: {

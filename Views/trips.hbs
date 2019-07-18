@@ -9,6 +9,27 @@
         <div class="col-sm-6 col-md-6">
             <div class="card">
                 <div class="card-body">
+                    <h5 class="card-title">{{fourHTrip.title}}</h5>
+                    <hr>
+                    <dl class="row">
+                        <dt class="col-md-12 col-lg-4">{{fourHTrip.info.schedule.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{fourHTrip.info.schedule.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{fourHTrip.info.location.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{fourHTrip.info.location.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{fourHTrip.info.boat.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{fourHTrip.info.boat.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{fourHTrip.info.price.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{fourHTrip.info.price.value}}, {{fourHTrip.info.skiper.value}}
+                        </dd>
+                    </dl>
+                    {{#if fourHTrip.info.extra}}<p class="card-text"><small
+                            class="text-muted">{{{fourHTrip.info.extra}}}</small></p>{{/if}}
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
                     <h5 class="card-title">{{dailyTrip.title}}</h5>
                     <hr>
                     <dl class="row">
@@ -23,6 +44,8 @@
                         </dd>
                     </dl>
                     <!--a href="#" class="btn btn-primary">More About</a-->
+                    {{#if dailyTrip.info.extra}}<p class="card-text"><small
+                            class="text-muted">{{{dailyTrip.info.extra}}}</small></p>{{/if}}
                 </div>
             </div>
         </div>
@@ -42,6 +65,8 @@
                         <dd class="col-md-12 col-lg-8">{{twoDayTrip.info.price.value}}, {{twoDayTrip.info.skiper.value}}
                         </dd>
                     </dl>
+                    {{#if twoDayTrip.info.extra}}<p class="card-text"><small
+                            class="text-muted">{{{twoDayTrip.info.extra}}}</small></p>{{/if}}
                 </div>
             </div>
         </div>
@@ -62,6 +87,8 @@
                             {{threeDayTrip.info.skiper.value}}
                         </dd>
                     </dl>
+                    {{#if threeDayTrip.info.extra}}<p class="card-text"><small
+                            class="text-muted">{{{threeDayTrip.info.extra}}}</small></p>{{/if}}
                 </div>
             </div>
         </div>
@@ -81,6 +108,8 @@
                         <dd class="col-md-12 col-lg-8">{{weeklyTrip.info.price.value}}, {{weeklyTrip.info.skiper.value}}
                         </dd>
                     </dl>
+                    {{#if weeklyTrip.info.extra}}<p class="card-text"><small
+                            class="text-muted">{{{weeklyTrip.info.extra}}}</small></p>{{/if}}
                 </div>
             </div>
         </div>
