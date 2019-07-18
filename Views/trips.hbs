@@ -113,4 +113,28 @@
                 </div>
             </div>
         </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{specialTrip.title}}</h5>
+                    <hr>
+                    <dl class="row">
+                        <dt class="col-md-12 col-lg-4">{{specialTrip.info.schedule.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{specialTrip.info.schedule.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{specialTrip.info.description.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{specialTrip.info.description.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{specialTrip.info.location.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{specialTrip.info.location.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{specialTrip.info.boat.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{specialTrip.info.boat.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{specialTrip.info.price.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{specialTrip.info.price.value}},
+                            {{specialTrip.info.skiper.value}}
+                        </dd>
+                    </dl>
+                    {{#if specialTrip.info.extra}}<p class="card-text"><small
+                            class="text-muted">{{{specialTrip.info.extra}}}</small></p>{{/if}}
+                </div>
+            </div>
+        </div>
     </div>

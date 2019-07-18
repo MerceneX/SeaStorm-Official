@@ -52,7 +52,7 @@ module.exports = {
 		expo1: {
 			title: "Šola Jadranja",
 			text:
-				"Ponujamo izobraževanja v več različnih okusih za bolj, manj in neizkušene. Pripravili smo vam začetni, nadaljevalni in individualni tečaj za vse ljubitelje športa, ki bi se radi v njem sami poskusili.",
+				"Ponujamo izobraževanja v več različnih okusih za bolj ali manj izkušene. Pripravili smo vam začetni, nadaljevalni in individualni tečaj za vse ljubitelje jadranja, ki bi radi pridobili izkušnje za varno plovbo.",
 			more: global.more1
 		},
 		expo2: {
@@ -64,7 +64,7 @@ module.exports = {
 		expo3: {
 			title: "Teambuilding",
 			text:
-				"Na odprtem morju, ko valovi zatresejo tla pod nogamo izvemo iz kakšnega testa smo v resnici! Je vaša ekipa pripravljena stopiti skupaj in zapluti res enotno? Pridite na teambulding in izvedeli boste.",
+				"Na odprtem morju, ko valovi zamajajo tla pod nogami izvemo iz kakšnega testa smo v resnici. Je vaša ekipa pripravljena sodelovati in zajadrati enotno? Pridite na teambuilding in izvedeli boste.",
 			more: global.more1
 		}
 	},
@@ -124,12 +124,12 @@ module.exports = {
 				},
 				location: {
 					desc: "Lokacija Tečaja",
-					value: "Slovensko morje z izhodiščem Izola"
+					value: "Slovensko morje z izhodiščem marina Izola"
 				},
 				shortDescription: {
 					desc: "Opis",
 					value:
-						"Osnovno spoznavanje jadranja nad 10-meterski jadrnici. Tečaj traja dva dni."
+						"Spoznavanje jadranja na 10-meterski jadrnici. Čas izvajanja je dva dni."
 				},
 				boat: {
 					desc: "Plovilo",
@@ -151,12 +151,12 @@ module.exports = {
 				},
 				location: {
 					desc: "Lokacija Tečaja",
-					value: "Slovensko morje z izhodiščem Izola"
+					value: "Slovensko morje z izhodiščem marina Izola"
 				},
 				shortDescription: {
 					desc: "Opis",
 					value:
-						"Podrobnejše spoznavanje jadranja nad 10-meterski jadrnici. Tečaj traja dva dni."
+						"Tečaj jadranja na 10-meterski jadrnici za že izkušene. Čas izvajanja je dva dni."
 				},
 				boat: {
 					desc: "Plovilo",
@@ -164,7 +164,34 @@ module.exports = {
 				},
 				price: {
 					desc: "Cena",
-					value: "210€ na osebo"
+					value: "240€ na osebo"
+				},
+				extra: global.moreInformation1
+			}
+		},
+		individualCourse: {
+			title: "Individualni Tečaj",
+			info: {
+				schedule: {
+					desc: "Termin",
+					value: "Po dogovoru"
+				},
+				location: {
+					desc: "Lokacija Tečaja",
+					value: "Slovensko morje z izhodiščem marina Izola"
+				},
+				shortDescription: {
+					desc: "Opis",
+					value:
+						"Učenje jadranja na 10-meterski jadrnici, krojeno po vaših željah in sposobnostih."
+				},
+				boat: {
+					desc: "Plovilo",
+					value: "Elan 333"
+				},
+				price: {
+					desc: "Cena",
+					value: "Po dogovoru"
 				},
 				extra: global.moreInformation1
 			}
@@ -178,10 +205,10 @@ module.exports = {
 		fourHTrip: {
 			title: "4-Urni Izlet",
 			info: {
-				schedule: { desc: "Termin", value: "Med tednom po dogovoru" },
+				schedule: { desc: "Termin", value: "Po dogovoru" },
 				location: {
 					desc: "Kraj Najema",
-					value: "Slovensko morje z izhodiščem Izola"
+					value: "Slovensko morje z izhodiščem marina Izola"
 				},
 				boat: {
 					desc: "Plovilo",
@@ -203,7 +230,7 @@ module.exports = {
 				schedule: { desc: "Termin", value: "Sobota oz. nedelja 9.00-18.00" },
 				location: {
 					desc: "Kraj Najema",
-					value: "Slovensko morje z izhodiščem Izola"
+					value: "Slovensko morje z izhodiščem marina Izola"
 				},
 				boat: {
 					desc: "Plovilo",
@@ -225,7 +252,7 @@ module.exports = {
 				schedule: { desc: "Termin", value: "Od sobote 9.00 do nedelje 18.00" },
 				location: {
 					desc: "Kraj Najema",
-					value: "Slovensko morje z izhodiščem Izola"
+					value: "Slovensko morje z izhodiščem marina Izola"
 				},
 				boat: {
 					desc: "Plovilo",
@@ -247,7 +274,7 @@ module.exports = {
 				schedule: { desc: "Termin", value: "Od petka 9.00 do nedelje 18.00" },
 				location: {
 					desc: "Kraj Najema",
-					value: "Slovensko morje z izhodiščem Izola"
+					value: "Slovensko morje z izhodiščem marina Izola"
 				},
 				boat: {
 					desc: "Plovilo",
@@ -269,7 +296,7 @@ module.exports = {
 				schedule: { desc: "Termin", value: "Od sobote 15.00 do sobote 9.00" },
 				location: {
 					desc: "Kraj Najema",
-					value: "Slovensko morje z izhodiščem Izola"
+					value: "Slovensko morje z izhodiščem marina Izola"
 				},
 				boat: {
 					desc: "Plovilo",
@@ -285,6 +312,33 @@ module.exports = {
 				extra: global.moreInformation1
 			}
 		},
+		specialTrip: {
+			title: "Posebna ponudba",
+			info: {
+				schedule: { desc: "Termin", value: "Po dogovoru" },
+				description: {
+					desc: "Opis",
+					value:
+						"Imate idejo za jadralsko izkušnjo? Skupaj jo lahko uresničimo."
+				},
+				location: {
+					desc: "Kraj Najema",
+					value: "Slovensko morje z izhodiščem marina Izola"
+				},
+				boat: {
+					desc: "Plovilo",
+					value: "Elan 333"
+				},
+				price: {
+					desc: "Cena",
+					value: "Po dogovoru"
+				},
+				skiper: {
+					value: "Skiper vključen"
+				},
+				extra: global.moreInformation1
+			}
+		},
 		navigation
 	},
 	Teambuilding: {
@@ -292,11 +346,11 @@ module.exports = {
 		title: "Teambuilding",
 		content: {
 			p1:
-				"Teambuildingbo potekal na 10-metrski jadrnici, ki sprejme do 8 ljudi vključno s skiperjem. V primeru večjega števila udeležencev, se lahko organizira dodatna jadrnica.",
+				"Teambuilding bo potekal na 10-metrski jadrnici, ki sprejme do 8 ljudi vključno s skiperjem. V primeru večjega števila udeležencev, se lahko organizira dodatna jadrnica.",
 			p2:
-				"Organiziramo teambuilding na jadrnici za vaš delovni kolektiv. Poskrbimo, da se boste s sodelavci skozi proces jadranja in nepozabnega doživetja še bolj povezali in delovali kotskupina, kise zaveda pomembnosti vsakega člana za doseganje ciljev na delovnem mestu.",
+				"Organiziramo teambuilding na jadrnici za vaš delovni kolektiv. Poskrbimo, da se boste s sodelavci skozi proces jadranja in nepozabnega doživetja še bolj povezali in delovali kot skupina, ki se zaveda pomembnosti vsakega člana za doseganje ciljev na delovnem mestu.",
 			p3:
-				"Zberemo se ob 09.00 v mairni Izola. Med samim jadranjem bo tudi čas za malico, počitek inkopanje. Vrnitev v matično marino je predvidena ob 17.00.",
+				"Zberemo se ob 09.00 v marini Izola. Med samim jadranjem bo tudi čas za malico, počitek in kopanje. Vrnitev v matično marino je predvidena ob 18.00.",
 			price: "Cena teambuildinga znaša 350€ na skupino."
 		},
 		navigation
