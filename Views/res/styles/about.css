@@ -1,12 +1,8 @@
 .contact-info {
 	margin: 0;
 }
-dl > dt,
-h4 {
-	color: rgb(var(--secondary-color));
-}
 
-h4 {
-	font-size: 2rem;
-	margin-left: 0.7rem;
+.contact-section {
+	margin: 0;
+	margin-top: 2rem;
 }

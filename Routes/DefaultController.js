@@ -1,5 +1,15 @@
 const express = require("express"),
-	router = express.Router();
+	router = express.Router(),
+	school = require("./SchoolController"),
+	trips = require("./TripsController"),
+	teambuilding = require("./TeambuildingController"),
+	literature = require("./LiteratureController"),
+	setupDataObject = require("./lib/setupDataObject");
+
+router.use("/School", school);
+router.use("/Trips", trips);
+router.use("/Teambuilding", teambuilding);
+router.use("/Literature", literature);
 
 router.get("/", (req, res) => {
 	const data = {
@@ -14,9 +24,5 @@ router.get("/About", (req, res) => {
 	};
 	res.render("about", data.About);
 });
-function setupDataObject(data, url, active) {
-	data.current = url.substring(4);
-	data.active = { [active]: true };
-	return data;
-}
+
 module.exports = router;

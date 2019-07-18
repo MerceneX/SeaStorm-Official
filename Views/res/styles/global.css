@@ -81,3 +81,13 @@ a.navbar-brand {
 footer {
 	color: rgb(var(--secondary-color));
 }
+dl > dt,
+h4,
+.card-title {
+	color: rgb(var(--secondary-color));
+}
+
+h4 {
+	font-size: 2rem;
+	margin-left: 0.7rem;
+}

@@ -1,0 +1,87 @@
+<link rel="stylesheet" type="text/css" href={{css}}>
+<h1 class="display-3 text-center">
+    {{title}}
+</h1>
+<hr>
+<img src="/img/trips/trips1.gif" alt="Going on a trip" class="img-fluid">
+<div class="container ">
+    <div class="row">
+        <div class="col-sm-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{dailyTrip.title}}</h5>
+                    <hr>
+                    <dl class="row">
+                        <dt class="col-md-12 col-lg-4">{{dailyTrip.info.schedule.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{dailyTrip.info.schedule.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{dailyTrip.info.location.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{dailyTrip.info.location.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{dailyTrip.info.boat.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{dailyTrip.info.boat.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{dailyTrip.info.price.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{dailyTrip.info.price.value}}, {{dailyTrip.info.skiper.value}}
+                        </dd>
+                    </dl>
+                    <!--a href="#" class="btn btn-primary">More About</a-->
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{twoDayTrip.title}}</h5>
+                    <hr>
+                    <dl class="row">
+                        <dt class="col-md-12 col-lg-4">{{twoDayTrip.info.schedule.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{twoDayTrip.info.schedule.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{twoDayTrip.info.location.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{twoDayTrip.info.location.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{twoDayTrip.info.boat.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{twoDayTrip.info.boat.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{twoDayTrip.info.price.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{twoDayTrip.info.price.value}}, {{twoDayTrip.info.skiper.value}}
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{threeDayTrip.title}}</h5>
+                    <hr>
+                    <dl class="row">
+                        <dt class="col-md-12 col-lg-4">{{threeDayTrip.info.schedule.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{threeDayTrip.info.schedule.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{threeDayTrip.info.location.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{threeDayTrip.info.location.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{threeDayTrip.info.boat.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{threeDayTrip.info.boat.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{threeDayTrip.info.price.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{threeDayTrip.info.price.value}},
+                            {{threeDayTrip.info.skiper.value}}
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{weeklyTrip.title}}</h5>
+                    <hr>
+                    <dl class="row">
+                        <dt class="col-md-12 col-lg-4">{{weeklyTrip.info.schedule.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{weeklyTrip.info.schedule.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{weeklyTrip.info.location.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{weeklyTrip.info.location.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{weeklyTrip.info.boat.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{weeklyTrip.info.boat.value}}</dd>
+                        <dt class="col-md-12 col-lg-4">{{weeklyTrip.info.price.desc}}:</dt>
+                        <dd class="col-md-12 col-lg-8">{{weeklyTrip.info.price.value}}, {{weeklyTrip.info.skiper.value}}
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
