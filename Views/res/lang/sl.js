@@ -45,6 +45,18 @@ const global = {
 module.exports = {
 	Home: {
 		layout: "main",
+		meta: [
+			{
+				name: "description",
+				content:
+					"Jadralski izleti z izhodščem v Izoli. Naši izleti so profesionalno izvedeni po dostopnejši ceni. Na voljo so tudi tečaji jadranja, posebne ponudbe in pa teambuilding doživetja."
+			},
+			{
+				name: "keywords",
+				content:
+					"Jadranje, Izleti, Jadralski Tečaji, Teabuilding, Elan 333, Jadran, Morje, Slovenija, Izola, Doživetje"
+			}
+		],
 		title: "SeaStorm Sailing",
 		css: "/style/homepage.css",
 		navigation,
@@ -70,8 +82,21 @@ module.exports = {
 	},
 	About: {
 		layout: "main",
+		meta: [
+			{
+				name: "description",
+				content:
+					"Sem asist. Jure Srše, mag. inž. pom. in za vas izvajam jadralske izlete, tečaje in teambuildinge."
+			},
+			{
+				name: "keywords",
+				content:
+					"Jadranje, Izleti, Jadralski Tečaji, Elan 333, Morje, Slovenija, Izola, Doživetje"
+			}
+		],
 		title: "O Nas",
 		css: "/style/about.css",
+		navigation,
 		content: {
 			p1:
 				"Sem Jure Srše, velik navdušenec nad morjem in jadranjem. Z lepotami in nevarnostmi morja sem se srečeval že od mladih nog. " +
@@ -108,13 +133,25 @@ module.exports = {
 				description: "Spletna Stran",
 				value: "www.seastorm-sailing.com"
 			}
-		},
-		navigation
+		}
 	},
 	School: {
 		layout: "main",
+		meta: [
+			{
+				name: "description",
+				content:
+					"Jadralski tečaji za vsakogar. Nudimo začetne, nadaljevalne in individualne tečaje. Po opravljenih tečajih boste imeli željene kompetence in sposobnosti pri jadranju."
+			},
+			{
+				name: "keywords",
+				content:
+					"Jadranje, Jadralski Tečaji, Elan 333, Morje, Slovenija, Izola, Začetni, Nadaljevalni, Individualni, Inštruktor"
+			}
+		],
 		title: "Šola Jadranja",
 		css: "/style/school.css",
+		navigation,
 		beginnerCourse: {
 			title: "Začetni Tečaj",
 			info: {
@@ -195,11 +232,22 @@ module.exports = {
 				},
 				extra: global.moreInformation1
 			}
-		},
-		navigation
+		}
 	},
 	Trips: {
 		layout: "main",
+		meta: [
+			{
+				name: "description",
+				content:
+					"Jadralski izleti po Jadranskem morju. Izleti se začnejo v Izoli in se odvijajo po navedenih terminih."
+			},
+			{
+				name: "keywords",
+				content:
+					"Jadranje, Jadralski Izleti, Elan 333, Morje, Jadran, Slovenija, Izola, Različno trajanje, Skiper"
+			}
+		],
 		title: "Jadralski Izleti",
 		css: "/style/trips.css",
 		fourHTrip: {
@@ -343,6 +391,18 @@ module.exports = {
 	},
 	Teambuilding: {
 		layout: "main",
+		meta: [
+			{
+				name: "description",
+				content:
+					"Teambuilding za poslovne in prijateljske kolektive. Po dogovoru se program prilagodi vašim željam."
+			},
+			{
+				name: "keywords",
+				content:
+					"Jadranje, Teambuilding, Elan 333, Jadran, Morje, Slovenija, Izola"
+			}
+		],
 		title: "Teambuilding",
 		content: {
 			p1:
