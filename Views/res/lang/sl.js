@@ -31,6 +31,7 @@ const navigation = {
 		]
 	},
 	about: { name: "O Nas", link: "/sl/About" },
+	logoAlt: "Logotip podjetja SeaStorm-Sailing",
 	language: { name: "Language" }
 };
 
@@ -60,23 +61,32 @@ module.exports = {
 		title: "SeaStorm Sailing",
 		css: "/style/homepage.css",
 		navigation,
-		heading1: "Doživite z nami",
+		carousel: {
+			img1: "Prelepa jadrnica pri sončnem zahodu",
+			img2: "Bok jadrnice ob obali Izole",
+			img3: "Skiper na premcu jadrnice",
+			img4: "Zabavanje na boku jadrnice"
+		},
+		heading1: "Zajadrajte z nami",
 		expo1: {
 			title: "Šola Jadranja",
 			text:
 				"Ponujamo izobraževanja v več različnih okusih za bolj ali manj izkušene. Pripravili smo vam začetni, nadaljevalni in individualni tečaj za vse ljubitelje jadranja, ki bi radi pridobili izkušnje za varno plovbo.",
+			img: "Logo šole jadranja",
 			more: global.more1
 		},
 		expo2: {
 			title: "Jadralski Izleti",
 			text:
 				"Doživetje jadranja je nekaj prav posebnega, kratko ali dolgotrajno tvori nepozabne spomine. Zato ponujamo časovno prilagodljive izlete, katerih se boste spominjali še dolgo in veseli o nijh pripovedovali prijateljem.",
+			img: "Logo jadralskih izletov",
 			more: global.more1
 		},
 		expo3: {
 			title: "Teambuilding",
 			text:
 				"Na odprtem morju, ko valovi zamajajo tla pod nogami izvemo iz kakšnega testa smo v resnici. Je vaša ekipa pripravljena sodelovati in zajadrati enotno? Pridite na teambuilding in izvedeli boste.",
+			img: "Logo teambuildinga",
 			more: global.more1
 		}
 	},
@@ -152,6 +162,7 @@ module.exports = {
 		title: "Šola Jadranja",
 		css: "/style/school.css",
 		navigation,
+		img1: "Jadrnice pluje proti zahodu",
 		beginnerCourse: {
 			title: "Začetni Tečaj",
 			info: {
@@ -250,6 +261,7 @@ module.exports = {
 		],
 		title: "Jadralski Izleti",
 		css: "/style/trips.css",
+		img1: "Jadrnice pluje proti zahodu",
 		fourHTrip: {
 			title: "4-Urni Izlet",
 			info: {
@@ -404,6 +416,7 @@ module.exports = {
 			}
 		],
 		title: "Teambuilding",
+		img1: "Utrjevanje skupinskega duha na jadrnici",
 		content: {
 			p1:
 				"Teambuilding bo potekal na 10-metrski jadrnici, ki sprejme do 8 ljudi vključno s skiperjem. V primeru večjega števila udeležencev, se lahko organizira dodatna jadrnica.",
