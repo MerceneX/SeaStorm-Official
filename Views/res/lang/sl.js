@@ -58,7 +58,7 @@ module.exports = {
 					"Jadranje, Izleti, Jadralski Tečaji, Teabuilding, Elan 333, Jadran, Morje, Slovenija, Izola, Doživetje"
 			}
 		],
-		title: "SeaStorm Sailing - Zajadrajte Z Nami",
+		title: "SeaStorm Sailing - Zajadrajte z Nami",
 		css: "/style/homepage.css",
 		navigation,
 		carousel: {
