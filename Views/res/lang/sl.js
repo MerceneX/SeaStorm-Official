@@ -58,7 +58,7 @@ module.exports = {
 					"Jadranje, Izleti, Jadralski Tečaji, Teabuilding, Elan 333, Jadran, Morje, Slovenija, Izola, Doživetje"
 			}
 		],
-		title: "SeaStorm Sailing",
+		title: "SeaStorm Sailing - Zajadrajte Z Nami",
 		css: "/style/homepage.css",
 		navigation,
 		carousel: {
@@ -104,7 +104,8 @@ module.exports = {
 					"Jadranje, Izleti, Jadralski Tečaji, Elan 333, Morje, Slovenija, Izola, Doživetje"
 			}
 		],
-		title: "O Nas",
+		heading1: "O Nas",
+		title: "SeaStorm Sailing - O Nas",
 		css: "/style/about.css",
 		navigation,
 		content: {
@@ -142,6 +143,10 @@ module.exports = {
 			website: {
 				description: "Spletna Stran",
 				value: "www.seastorm-sailing.com"
+			},
+			facebook: {
+				description: "Facebook",
+				value: "https://www.facebook.com/SeaStormSailing/"
 			}
 		}
 	},
@@ -159,7 +164,8 @@ module.exports = {
 					"Jadranje, Jadralski Tečaji, Elan 333, Morje, Slovenija, Izola, Začetni, Nadaljevalni, Individualni, Inštruktor"
 			}
 		],
-		title: "Šola Jadranja",
+		heading1: "Šola Jadranja",
+		title: "SeaStorm Sailing - Šola Jadranja za vse stopnje izkušenj",
 		css: "/style/school.css",
 		navigation,
 		img1: "Jadrnice pluje proti zahodu",
@@ -259,7 +265,8 @@ module.exports = {
 					"Jadranje, Jadralski Izleti, Elan 333, Morje, Jadran, Slovenija, Izola, Različno trajanje, Skiper"
 			}
 		],
-		title: "Jadralski Izleti",
+		title: "Seastorm Sailing - Jadralski Izleti za vse okuse",
+		heading1: "Jadralski Izleti",
 		css: "/style/trips.css",
 		img1: "Jadrnice pluje proti zahodu",
 		fourHTrip: {
@@ -415,7 +422,8 @@ module.exports = {
 					"Jadranje, Teambuilding, Elan 333, Jadran, Morje, Slovenija, Izola"
 			}
 		],
-		title: "Teambuilding",
+		title: "SeaStorm Sailing - Teambuilding na jadrnici za vašo ekipo",
+		heading1: "Teambuilding",
 		img1: "Utrjevanje skupinskega duha na jadrnici",
 		content: {
 			p1:
