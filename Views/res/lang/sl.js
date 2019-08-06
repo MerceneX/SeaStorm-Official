@@ -146,7 +146,8 @@ module.exports = {
 			},
 			facebook: {
 				description: "Facebook",
-				value: "https://www.facebook.com/SeaStormSailing/"
+				value: "Facebook/SeaStormSailing/",
+				link: "https://www.facebook.com/SeaStormSailing/"
 			}
 		}
 	},
